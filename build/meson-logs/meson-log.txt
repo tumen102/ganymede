@@ -1,0 +1,230 @@
+Build started at 2023-06-04T11:14:31.348480
+Main binary: /usr/bin/python3
+Build Options: -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.56.2
+Source dir: /home/keepalive/Documents/ganymede
+Build dir: /home/keepalive/Documents/ganymede/build
+Build type: native build
+Project name: ganymede
+Project version: 0.1
+C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (Raspbian 10.2.1-6+rpi1) 10.2.1 20210110")
+C++ linker for the host machine: c++ ld.bfd 2.35.2
+None of 'AR' are defined in the environment, not changing global flags.
+C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (Raspbian 10.2.1-6+rpi1) 10.2.1 20210110")
+C++ linker for the build machine: c++ ld.bfd 2.35.2
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: arm
+Build machine cpu: armv6l
+Host machine cpu family: arm
+Host machine cpu: armv6l
+Target machine cpu family: arm
+Target machine cpu: armv6l
+
+Executing subproject glfw method meson 
+
+Project name: glfw
+Project version: 3.3.0
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.c -o /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 10.2.1 "cc (Raspbian 10.2.1-6+rpi1) 10.2.1 20210110")
+C linker for the host machine: cc ld.bfd 2.35.2
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.c -o /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/keepalive/Documents/ganymede/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 10.2.1 "cc (Raspbian 10.2.1-6+rpi1) 10.2.1 20210110")
+C linker for the build machine: cc ld.bfd 2.35.2
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmp7561pnsn
+Command line:  cc /home/keepalive/Documents/ganymede/build/meson-private/tmp7561pnsn/testfile.c -o /home/keepalive/Documents/ganymede/build/meson-private/tmp7561pnsn/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmpluz_4900
+Command line:  cc /home/keepalive/Documents/ganymede/build/meson-private/tmpluz_4900/testfile.c -o /home/keepalive/Documents/ganymede/build/meson-private/tmpluz_4900/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Run-time dependency threads found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmp43mv1col
+Command line:  cc /home/keepalive/Documents/ganymede/build/meson-private/tmp43mv1col/testfile.c -o /home/keepalive/Documents/ganymede/build/meson-private/tmp43mv1col/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Configuring glfw_config.h using configuration
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'vulkan' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion vulkan` -> 0
+1.2.162
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags vulkan` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config vulkan --libs` -> 0
+-L/usr/lib/arm-linux-gnueabihf -lvulkan
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config vulkan --libs` -> 0
+-lvulkan
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmpq45v8c2g
+Command line:  c++ /home/keepalive/Documents/ganymede/build/meson-private/tmpq45v8c2g/testfile.cpp -o /home/keepalive/Documents/ganymede/build/meson-private/tmpq45v8c2g/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmptw9kuzxf
+Command line:  c++ /home/keepalive/Documents/ganymede/build/meson-private/tmptw9kuzxf/testfile.cpp -o /home/keepalive/Documents/ganymede/build/meson-private/tmptw9kuzxf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/arm-linux-gnueabihf/10/
+programs: =/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/
+libraries: =/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../:/lib/arm-linux-gnueabihf/10/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/10/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency vulkan found: YES 1.2.162
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion x11` -> 0
+1.7.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags x11` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11 --libs` -> 0
+-L/usr/lib/arm-linux-gnueabihf -lX11
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11 --libs` -> 0
+-lX11
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency x11 found: YES 1.7.2
+Build targets in project: 4
+Subproject glfw finished.
+
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gl' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gl` -> 0
+1.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gl` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gl --libs` -> 0
+-L/usr/lib/arm-linux-gnueabihf -lGL
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gl --libs` -> 0
+-lGL
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency gl found: YES 1.2
+Build targets in project: 5
+
+ganymede 0.1
+
+  Subprojects
+    glfw: YES
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/keepalive/Documents/ganymede/build/meson-private/tmposqmcz19
+Command line:  cc /home/keepalive/Documents/ganymede/build/meson-private/tmposqmcz19/testfile.c -o /home/keepalive/Documents/ganymede/build/meson-private/tmposqmcz19/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/arm-linux-gnueabihf/10/
+programs: =/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/
+libraries: =/usr/lib/gcc/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/lib/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../arm-linux-gnueabihf/10/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/10/../../../:/lib/arm-linux-gnueabihf/10/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/10/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpfksn_cyv
+Command line:  c++ /tmp/tmpfksn_cyv/testfile.cpp -o /tmp/tmpfksn_cyv/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.

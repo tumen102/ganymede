@@ -1,0 +1,1 @@
+{"version": "0.1", "descriptive_name": "ganymede", "subproject_dir": "subprojects", "subprojects": [{"name": "glfw", "version": "3.3.0", "descriptive_name": "glfw"}]}

@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/deps/libglad.a.p -Isubprojects/glfw/deps -I../subprojects/glfw/deps -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -MD -MQ subprojects/glfw/deps/libglad.a.p/glad.c.o -MF subprojects/glfw/deps/libglad.a.p/glad.c.o.d -o subprojects/glfw/deps/libglad.a.p/glad.c.o -c ../subprojects/glfw/deps/glad.c",
+    "file": "../subprojects/glfw/deps/glad.c",
+    "output": "subprojects/glfw/deps/libglad.a.p/glad.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/deps/libgetopt.a.p -Isubprojects/glfw/deps -I../subprojects/glfw/deps -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -MD -MQ subprojects/glfw/deps/libgetopt.a.p/getopt.c.o -MF subprojects/glfw/deps/libgetopt.a.p/getopt.c.o.d -o subprojects/glfw/deps/libgetopt.a.p/getopt.c.o -c ../subprojects/glfw/deps/getopt.c",
+    "file": "../subprojects/glfw/deps/getopt.c",
+    "output": "subprojects/glfw/deps/libgetopt.a.p/getopt.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/deps/libtinycthread.a.p -Isubprojects/glfw/deps -I../subprojects/glfw/deps -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -MD -MQ subprojects/glfw/deps/libtinycthread.a.p/tinycthread.c.o -MF subprojects/glfw/deps/libtinycthread.a.p/tinycthread.c.o.d -o subprojects/glfw/deps/libtinycthread.a.p/tinycthread.c.o -c ../subprojects/glfw/deps/tinycthread.c",
+    "file": "../subprojects/glfw/deps/tinycthread.c",
+    "output": "subprojects/glfw/deps/libtinycthread.a.p/tinycthread.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/context.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/context.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/context.c.o -c ../subprojects/glfw/src/context.c",
+    "file": "../subprojects/glfw/src/context.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/context.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/init.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/init.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/init.c.o -c ../subprojects/glfw/src/init.c",
+    "file": "../subprojects/glfw/src/init.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/init.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/input.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/input.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/input.c.o -c ../subprojects/glfw/src/input.c",
+    "file": "../subprojects/glfw/src/input.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/input.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/monitor.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/monitor.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/monitor.c.o -c ../subprojects/glfw/src/monitor.c",
+    "file": "../subprojects/glfw/src/monitor.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/monitor.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/vulkan.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/vulkan.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/vulkan.c.o -c ../subprojects/glfw/src/vulkan.c",
+    "file": "../subprojects/glfw/src/vulkan.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/vulkan.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/window.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/window.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/window.c.o -c ../subprojects/glfw/src/window.c",
+    "file": "../subprojects/glfw/src/window.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/window.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/posix_thread.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/posix_thread.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/posix_thread.c.o -c ../subprojects/glfw/src/posix_thread.c",
+    "file": "../subprojects/glfw/src/posix_thread.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/posix_thread.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/linux_joystick.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/linux_joystick.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/linux_joystick.c.o -c ../subprojects/glfw/src/linux_joystick.c",
+    "file": "../subprojects/glfw/src/linux_joystick.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/linux_joystick.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/posix_time.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/posix_time.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/posix_time.c.o -c ../subprojects/glfw/src/posix_time.c",
+    "file": "../subprojects/glfw/src/posix_time.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/posix_time.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/osmesa_context.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/osmesa_context.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/osmesa_context.c.o -c ../subprojects/glfw/src/osmesa_context.c",
+    "file": "../subprojects/glfw/src/osmesa_context.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/osmesa_context.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/egl_context.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/egl_context.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/egl_context.c.o -c ../subprojects/glfw/src/egl_context.c",
+    "file": "../subprojects/glfw/src/egl_context.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/egl_context.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/glx_context.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/glx_context.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/glx_context.c.o -c ../subprojects/glfw/src/glx_context.c",
+    "file": "../subprojects/glfw/src/glx_context.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/glx_context.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/x11_init.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/x11_init.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/x11_init.c.o -c ../subprojects/glfw/src/x11_init.c",
+    "file": "../subprojects/glfw/src/x11_init.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/x11_init.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/x11_monitor.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/x11_monitor.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/x11_monitor.c.o -c ../subprojects/glfw/src/x11_monitor.c",
+    "file": "../subprojects/glfw/src/x11_monitor.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/x11_monitor.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/x11_window.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/x11_window.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/x11_window.c.o -c ../subprojects/glfw/src/x11_window.c",
+    "file": "../subprojects/glfw/src/x11_window.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/x11_window.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "cc -Isubprojects/glfw/src/libglfw.so.3.3.0.p -Isubprojects/glfw/src -I../subprojects/glfw/src -I../subprojects/glfw/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -g -fPIC -pthread -D_GLFW_USE_CONFIG_H -MD -MQ subprojects/glfw/src/libglfw.so.3.3.0.p/xkb_unicode.c.o -MF subprojects/glfw/src/libglfw.so.3.3.0.p/xkb_unicode.c.o.d -o subprojects/glfw/src/libglfw.so.3.3.0.p/xkb_unicode.c.o -c ../subprojects/glfw/src/xkb_unicode.c",
+    "file": "../subprojects/glfw/src/xkb_unicode.c",
+    "output": "subprojects/glfw/src/libglfw.so.3.3.0.p/xkb_unicode.c.o"
+  },
+  {
+    "directory": "/home/keepalive/Documents/ganymede/build",
+    "command": "c++ -Iganymede.p -I. -I.. -I/home/keepalive/imgui/backends -I/home/keepalive/imgui -I../subprojects/glfw/include -Isubprojects/glfw/src -I../subprojects/glfw/src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -g -MD -MQ ganymede.p/main.cpp.o -MF ganymede.p/main.cpp.o.d -o ganymede.p/main.cpp.o -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "ganymede.p/main.cpp.o"
+  }
+]
